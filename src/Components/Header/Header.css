@@ -1,0 +1,44 @@
+.heading{
+    margin-top: 5px; 
+    display: flex;
+}
+.heading2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #808080;
+}
+.display1{
+    width:100%;
+    height:60px;
+    background: #F9FAFB;
+    border: 1px solid #ECECEC;
+    border-radius: 10px;
+    margin-bottom: 9px;
+    text-align:right;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #070602;
+    padding-right: 10px;
+}
+.tags{
+    margin: 0px;
+}
+.tag.space{
+    margin: 0px 10px;
+}
+.tag.active{ 
+ padding-left:15px;
+ padding-right: 15px; 
+}
+.club{
+    display:flex;
+    justify-content: space-between;
+}
+

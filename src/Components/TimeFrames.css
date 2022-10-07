@@ -1,0 +1,30 @@
+.TimeFrames-container.h5{
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 10px;
+}
+.TimeFrames-container.tags{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.TimeFrames-container.tag{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 150%;
+    width: 92px;
+    height:37px;
+    background: #F9FAFB;
+    border-radius: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #a2a2a2;
+}
+.TimeFrames-container.tag.active{
+    background: #FCEB74;
+    border: 1px solid #FED700;
+    color:black;
+}

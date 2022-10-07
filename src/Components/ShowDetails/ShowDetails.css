@@ -1,0 +1,12 @@
+.detail{
+  font-family: 'Poppins';
+	font-style: normal;	
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 21px;
+	display: flex;
+	justify-content: center;
+	margin: 25px 0 12px 0;
+	color: #070602;
+
+}
