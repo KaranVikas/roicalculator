@@ -6,7 +6,7 @@ function Header() {
     <div className=''>
       <h4 className='heading'> ROI Calculator </h4>
       <div className='heading2'>
-				<img src={cakeIcon} alt="image not found" />
+				<img src={cakeIcon}  />
         <span className=''>Cake</span>
 				<span className=''>USD</span>
       </div>
