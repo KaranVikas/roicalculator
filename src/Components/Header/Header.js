@@ -21,9 +21,9 @@ function Header(props) {
 			</div>
 			<div className='club'>
 				<div className='tags'>
-				<div className={`tag ${balance == 'useBalance' ? 'active' : ''}`} onClick={()=>setBalance('useBalance')}>USE BALANCE</div>
-          <div className={`tag space ${balance == '1000' ? 'active' : ''}`} onClick={()=>setBalance('1000')}>$1000</div>
-          <div className={`tag ${balance == '100' ? 'active' : ''}`} onClick={()=>setBalance('100')}>$100</div>
+				<div className={`tag ${balance === 'useBalance' ? 'active' : ''}`} onClick={()=>setBalance('useBalance')}>USE BALANCE</div>
+          <div className={`tag space ${balance === '1000' ? 'active' : ''}`} onClick={()=>setBalance('1000')}>$1000</div>
+          <div className={`tag ${balance === '100' ? 'active' : ''}`} onClick={()=>setBalance('100')}>$100</div>
 				</div>
 				<div className='header_rev'>
 					<h5 className="">~$20.82</h5>
