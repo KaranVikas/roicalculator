@@ -6,7 +6,10 @@
 	line-height: 21px;
 	display: flex;
 	justify-content: center;
-	margin: 25px 0 12px 0;
+	margin: 25px 0 16px 0;
 	color: #070602;
-
+}
+.ShowDetailsSet{
+	object-fit:contain;
+	padding:8px;
 }

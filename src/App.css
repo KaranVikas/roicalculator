@@ -1,10 +1,12 @@
 .body{
   font-family: 'Poppins';
+  font-style: normal;
+
 }
 .App{
-  border:2px solid red;
+  border:2px solid black;
   max-width: 534px;
   margin: 0 auto;
   border-radius: 15px;
-  padding:24px;
+  padding:25px;
 }

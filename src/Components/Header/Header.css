@@ -1,18 +1,32 @@
+.HeaderClub{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.CloseImg{
+    object-fit: contain;
+}
 .heading{
     margin-top: 5px; 
     display: flex;
 }
 .heading2{
-    font-family: 'Poppins';
-    font-style: normal;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
     color: #808080;
 }
+.heading2 span{
+    padding-left:6px;
+    padding-right:12px;
+}
 .display1{
-    width:100%;
+    width:98%;
     height:60px;
     background: #F9FAFB;
     border: 1px solid #ECECEC;
@@ -27,6 +41,28 @@
     color: #070602;
     padding-right: 10px;
 }
+.switch {
+    appearance: none;
+    width: 24px;
+    height: 14px;
+    display: inline-block;
+    border-radius: calc(10px / 2);
+    cursor: pointer;
+    background-color: #F8C400;
+    background-image: radial-gradient(
+        circle calc(10px / 2.1),
+        #fff 100%,
+        #0000 0
+      ),
+      radial-gradient(circle calc(10px / 1.5), #0003 0%, #0000 100%);
+    background-repeat: no-repeat;
+    background-position: calc(10px / -1.75) 0;
+    transition: background 0.2s ease-out;
+  }
+  .switch:checked {
+    background-color: #cfd8dc;
+    background-position: calc(10px / 1.75) 0;
+  }
 .tags{
     margin: 0px;
 }
