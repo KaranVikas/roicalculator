@@ -11,13 +11,14 @@ function App() {
   const [timeFrame, setTimeFrames] = useState("1day")
   const [accelerate, setAccelerate ] = useState("tier4")
   const [balance, setBalance] = useState("usebalance")
+  const [apply, setApply] = useState("")
   return (
     <div className="App">
      <Header balance={balance} setBalance={setBalance}/>
      <TimeFrames timeFrame={timeFrame} setTimeFrames={setTimeFrames}/>
-     <Accelerated accelerate={accelerate} setAccelerate={setAccelerate}/>
-     <SecondDisplay/>
-     <ShowDetails/>
+     <Accelerated accelerate={accelerate} setAccelerate={setAccelerate} />
+     <SecondDisplay apply={apply} setApply={setApply} />
+     <ShowDetails />
     </div>
   );
 }

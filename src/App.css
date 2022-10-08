@@ -1,7 +1,10 @@
-.body{
+body{
   font-family: 'Poppins';
   font-style: normal;
-
+  height:100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .App{
   border:2px solid black;
@@ -9,4 +12,5 @@
   margin: 0 auto;
   border-radius: 15px;
   padding:25px;
+  
 }

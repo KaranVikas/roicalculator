@@ -14,9 +14,12 @@ h5{
 }
 .Pencil{
 	position:absolute;
-	left: 3.45%;
+	left: 5%;
 	top: 28.05%;
 	bottom: 5.8%;
+}
+.Pencil.check{
+	top:34%;
 }
 
 .hint{
@@ -27,7 +30,6 @@ h5{
 .buttons{
 	display: flex;
 	justify-content: space-between;
-	
 }
 .button{
 	height:49px;
@@ -43,6 +45,10 @@ h5{
 	font-size: 14px;
 	line-height: 21px;
 }
+.display1.activate{
+	border: 2px solid #FAC200;
+}
+
 .inactive{
 	background: #FFFFFF;
 	border-radius: 20px;
