@@ -6,7 +6,7 @@ import Vector1 from '../../assets/Vector1.png'
 function SecondDisplay(props) {
   const {apply, setApply} = props
   return (
-    <div className=''>
+    <div className='SecondDis-Container'>
       <div className="InputDisplay">
         <img className={`Pencil ${apply === 'active' ? 'check' : '' }`} src={apply === 'active' ? Vector1 : Vector} alt="pencil"/>
         <input className={`display1 ${apply === 'active' ? 'activate' : '' }`} disabled type="text" defaultValue='100.0 USD' />

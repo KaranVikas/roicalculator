@@ -1,17 +1,16 @@
-.HeaderClub{
+.head .HeaderClub{
     display: flex;
     justify-content: space-between;
-    
-
 }
-.CloseImg{
+.head .CloseImg{
     object-fit: contain;
+    margin-top: -30px;
 }
-.heading{
+.head .heading{
     margin-top: 5px; 
     display: flex;
 }
-.heading2{
+.head .heading2{
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -21,28 +20,25 @@
     text-align: center;
     color: #808080;
 }
-.heading2 span{
+.head .heading2 span{
     padding-left:6px;
     padding-right:12px;
 }
-.display1{
-    width:98%;
+ .display1{
+    width:97%;
     height:60px;
     background: #F9FAFB;
     border: 1px solid #ECECEC;
     border-radius: 10px;
     margin-bottom: 9px;
     text-align:right;
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
     color: #070602;
     padding-right: 10px;
 }
-
-.switch {
+.head .switch {
     appearance: none;
     width: 24px;
     height: 14px;
@@ -64,18 +60,37 @@
     background-color: #cfd8dc;
     background-position: calc(10px / 1.75) 0;
   }
-.tags{
-    margin: 0px;
+.head .tag{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 150%;
+    width: 92px;
+    height:36px;
+    background: #F9FAFB;
+    border-radius: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: black;
 }
-.tag.space{
+.head .tags{
+    margin: 0px;
+    display: flex;
+}
+.head .tag.space{
     margin: 0px 10px;
 }
-.tag.active{ 
- padding-left:15px;
- padding-right: 15px; 
+.head .tag.active{ 
+ padding-left:0px;
+ padding-right: 0px; 
+ background-color:#FFF9AA;
 }
-.club{
+.head .club{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-between;   
+}
+.head .approx{
+    margin-top: -4px;
+    color: #A8A8A8;
 }
 

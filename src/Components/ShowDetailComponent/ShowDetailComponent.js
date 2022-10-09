@@ -2,7 +2,7 @@ import './ShowDetailComponent.css'
 
 function ShowDetailComponent (){
   return (
-    <div className=''>
+    <div className='ShowDetailComp'>
       <div class="SDC">
         <h4 className='SDC_Head'>APY</h4>
         <h3 className='SDC_Value'>63.44%</h3>

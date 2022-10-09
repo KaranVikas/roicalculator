@@ -1,11 +1,13 @@
+import {useState} from 'react'
 import './Header.css'
 import Icon from '../../assets/icon.png'
 import cakeIcon from '../../assets/icon-round-512.png'
 
 function Header(props) {
+	const [usd ,setusd] = useState(false)
 	const {balance, setBalance} = props
   return (
-    <div className=''>
+    <div className='head'>
         <div className='HeaderClub'>
 	    <h4 className='heading'> ROI Calculator </h4>
 	    <img className="CloseImg" src={Icon} alt="No Close" />
@@ -13,11 +15,11 @@ function Header(props) {
       <div className='heading2'>
 				<img src={cakeIcon} alt="cake"  />
         		<span className=''>Cake</span>
-				<input className="switch" type="checkbox" />
+				<input className="switch" type="checkbox" onChange={(e)=>setusd(e.target.checked)}/>
 				<span className=''>USD</span>
       </div>
 			<div>
-				<input className='display1' defaultValue='2.10000 CAKE'/>
+				<input className='display1' value={`2.10000 ${ usd ? 'CAKE' : 'USD'}`} />
 			</div>
 			<div className='club'>
 				<div className='tags'>
@@ -26,10 +28,9 @@ function Header(props) {
           <div className={`tag ${balance === '100' ? 'active' : ''}`} onClick={()=>setBalance('100')}>$100</div>
 				</div>
 				<div className='header_rev'>
-					<h5 className="">~$20.82</h5>
+					<h5 className="approx">~$20.82</h5>
 				</div>
-			</div>
-			
+			</div>	
     </div>
   );
 }

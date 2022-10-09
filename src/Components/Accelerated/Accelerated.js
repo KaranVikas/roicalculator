@@ -3,7 +3,7 @@ import './Accelerated.css';
 function Accelerated(props) {
   const {accelerate, setAccelerate} = props
   return (
-    <div className="">
+    <div className="Accelerate-Container">
       <div className='clubboth'>
         <h4>Enable Accelerated APY</h4>
         <input class="switch2" type="checkbox" />

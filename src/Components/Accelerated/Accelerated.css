@@ -1,23 +1,23 @@
-h4{    
+.Accelerate-Container h4{    
     font-weight: 500;
     font-size: 16px;
     line-height: 170%;
     color: #000000;
     margin : 18px 0 10px 0;
 }
-h5{
+.Accelerate-Container h5{
     font-weight: 600;
     font-size: 14px;
     line-height: 21px;
-    margin : 15px 0 10px 0;
+    margin : 0px 0 10px 0;
     color: #A3A3A3
 }
-.clubboth{
+.Accelerate-Container .clubboth{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.switch2 {   
+.Accelerate-Container .switch2 {   
     appearance: none;
     width: 44px;
     height: 24px;
@@ -35,17 +35,16 @@ h5{
     background-position: calc(20px / -1.75) 0;
     transition: background 0.2s ease-out;
   }
-  .switch:checked {
+ .switch:checked {
     background-color: #EAEAEA;
     background-position: calc(20px / 1.75) 0;
   }
-  
-.tags{
+.Accelerate-Container .tags{
     display: flex;
     justify-content: space-between;
     margin: 13px 0 18px 0;
 }
-.tag{
+.Accelerate-Container .tag{
     font-weight: 600;
     font-size: 12px;
     line-height: 150%;
@@ -58,12 +57,12 @@ h5{
     align-items: center;
     color: #a2a2a2;
 }
-.tag.active{
+.Accelerate-Container .tag.active{
     background: #FCEB74;
     border: 1px solid #FED700;
     color:black;
 }
-.hint{
+.Accelerate-Container .hint{
     display: flex;
     flex-direction: row-reverse;
     margin: 18px 0 10px 0;
